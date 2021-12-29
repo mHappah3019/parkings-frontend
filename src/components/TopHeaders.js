@@ -2,6 +2,7 @@ import React from 'react';
 
 class TopHeaders extends React.Component {
     render() {
+      const problemDescription = 'Solving bicycle theft with a people-first approach';
       return (
         <div>
           <div className="row">
@@ -10,7 +11,7 @@ class TopHeaders extends React.Component {
             </div> 
             <div className="column right">
               <h5 id='subHeader' className="headers italic mildSpacing sides">
-                {this.props.problem_description}
+                {problemDescription}
               </h5>
             </div>
           </div>
