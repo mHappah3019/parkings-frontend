@@ -1,5 +1,9 @@
 import {Collapse, List, ListItem, ListItemButton, ListItemText} from '@mui/material'
-import {ExpandLess, ExpandMore, EmojiPeopleSharpIcon, SchoolTwoToneIcon, LocationOnSharpIcon, DirectionsRunIcon, VisibilityIcon} from '@mui/icons-material'
+import {ExpandLess, ExpandMore} from '@mui/icons-material'
+import EmojiPeopleSharpIcon from '@mui/icons-material/EmojiPeopleSharp';
+import SchoolTwoToneIcon from '@mui/icons-material/SchoolTwoTone';
+import LocationOnSharpIcon from '@mui/icons-material/LocationOnSharp';
+import VisibilityIcon from '@mui/icons-material/Visibility';
 
 import React from 'react';
 
