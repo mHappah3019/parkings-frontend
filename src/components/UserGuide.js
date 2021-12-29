@@ -1,3 +1,4 @@
+import React from 'react';
 
 class UserGuide extends React.Component {
     constructor(props) {
@@ -23,3 +24,5 @@ class UserGuide extends React.Component {
       )
     }
   }
+
+export default UserGuide;

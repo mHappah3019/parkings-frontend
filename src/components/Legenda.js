@@ -55,3 +55,5 @@ class Legenda extends React.Component{
       );
     }
   }
+
+export default Legenda;

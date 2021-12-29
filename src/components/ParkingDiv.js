@@ -36,3 +36,5 @@ class ParkingDiv extends React.Component {
       )
     }
   }
+
+export default ParkingDiv;

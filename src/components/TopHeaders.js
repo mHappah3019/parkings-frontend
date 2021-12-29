@@ -1,3 +1,5 @@
+import React from 'react';
+
 class TopHeaders extends React.Component {
     render() {
       return (
@@ -16,3 +18,5 @@ class TopHeaders extends React.Component {
       )
     }
   }
+
+export default TopHeaders;

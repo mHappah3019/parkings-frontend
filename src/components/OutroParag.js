@@ -1,3 +1,6 @@
+import React from 'react';
+
+
 class OutroParag extends React.Component {
     render() {
       return (
@@ -13,3 +16,5 @@ class OutroParag extends React.Component {
       )
     }
   }
+
+export default OutroParag;

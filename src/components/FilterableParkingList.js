@@ -1,3 +1,10 @@
+import Legenda from './Legenda';
+import FilterBar from './FilterBar';
+import ParkingsList from './ParkingsList'
+
+import React from 'react';
+
+
 class FilterableParkingsList extends React.Component {
     constructor(props){
       super(props);
@@ -43,3 +50,5 @@ class FilterableParkingsList extends React.Component {
       );
     }
   }
+
+export default FilterableParkingsList;

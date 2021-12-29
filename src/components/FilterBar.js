@@ -1,3 +1,5 @@
+import React from 'react';
+
 class FilterBar extends React.Component {
     constructor(props) {
       super(props);
@@ -32,3 +34,5 @@ class FilterBar extends React.Component {
       )
     }
   }
+
+export default FilterBar;
