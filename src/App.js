@@ -2,10 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 import TopHeaders from './components/TopHeaders'
-import Description from './components/TopHeaders'
-import UserGuide from './components/TopHeaders'
-import FilterableParkingsList from './components/TopHeaders'
-import OutroParag from './components/TopHeaders'
+import Description from './components/Description'
+import UserGuide from './components/UserGuide'
+import FilterableParkingsList from './components/FilterableParkingList'
+import OutroParag from './components/OutroParag'
 
 import { Component } from 'react';
 
