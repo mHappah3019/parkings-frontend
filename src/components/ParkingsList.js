@@ -1,7 +1,7 @@
 import ParkingDiv from './ParkingDiv';
-import List from '@mui/material';
 
 import React from 'react';
+import List from '@mui/material/List';
 
 
 class ParkingsList extends React.Component {
