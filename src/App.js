@@ -36,6 +36,9 @@ class App extends Component {
 
 
   render() {
+    const mainProps = { // make sure all required component's inputs/Props keys&types match
+      parkings: this.state.parkings
+    }
 
     return(
       <div>
@@ -43,7 +46,7 @@ class App extends Component {
         <Description/>
         <UserGuide/>
         <FilterableParkingsList
-          parkings = {this.state.parkings}/>
+          {...mainProps}/>
         <OutroParag/>
       </div>
     );

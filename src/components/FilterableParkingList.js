@@ -12,9 +12,9 @@ class FilterableParkingsList extends React.Component {
         schoolFilter: '',
         securityLevel: 1
       };
-      this.props = {
+      /* this.props = {
         divSize: 0
-      };
+      }; */
   
       this.handleSchoolFilterChange = this.handleSchoolFilterChange.bind(this);
       this.handleSecurityLevelChange = this.handleSecurityLevelChange.bind(this);
