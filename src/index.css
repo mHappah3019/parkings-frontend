@@ -13,18 +13,20 @@ code {
 }
  */
 
- 
-* {
+
+ * {
   box-sizing: border-box;
 }
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); */
 
 html,
 body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: lightblue;
-  font-family: verdana;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  font-family: 'Segoe UI', Roboto, 'Open Sans';
 }
 
 #main {
@@ -41,49 +43,71 @@ body {
   overflow-y: scroll;
 }
 
-footer {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #777;
-  padding: 10px;
-  text-align:left;
-  color: white;
+.mildSpacing {
+  line-height: 120%;
+  margin: 5px;
 }
 
-.header {
+.noSpacing {
+  line-height:110%;
+  margin:0;
+  padding:0;
+}
+
+.updown {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.sides {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.mildPadding {
   padding:5px;
-  text-align: left;
-  background: white;
-  color: black;
-  font-size: 22px;
+  margin:2px;
 }
 
-.headerPop {
+.leftPadding {
+  padding-left:10px;
+  margin:2px;
+}
+
+.headers {
+  margin: 1px;
+  line-height: 120%;
+  font-family: "Segoe UI";
+  background: darkkhaki;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#titleHeader{
+  font-family: verdana;
+}
+
+#headerPop {
   color:midnightblue;
 }
 
-.headerSubText {
-  width: 60%;
+.content {
+  background: darkgray;
+  font-family: Roboto, sans-serif;
 }
 
-.container {
-  border-radius: 10px;
-  background-color: #f2f2f2;
-  width: 100%;
-  border: solid lightblue 15px;
-  padding: 10px;
-}
-
-.column1 {
-  float: left;
+.steps{
   width: 50%;
-  margin-top: 5px;
-  padding-left: 100px;
 }
 
-.column2 {
-  float: left;
-  width: 50%;
-  padding-top:75px;
+.row{
+  background: black;
 }
 
 .row:after {
@@ -92,36 +116,70 @@ footer {
   clear: both;
 }
 
-.filterBar {
-  background-color: tomato;
-  height: 40px;
+.column {
+  float:left;
 }
 
-div.mildPadding {
-  padding: 5px;
+.left {
+  background: darkcyan;
 }
 
-input {
+.right {
+  background: darkgoldenrod;
+}
+
+.rowC{
+  display: flex;
+  flex-direction:row;
+  background: greenyellow;
+}
+
+
+#filterBar {
+  margin-top: 25px;
+  padding-left: 25px;
+  background: darkred;
+}
+
+#schoolInput {
+  text-align: center;
   height: 30px;
-  padding: 10px;
+  width: 150px;
+  /* padding: 10px; */
+  float: none;
+  display: block;
 }
 
-select {
-  height: 30px;
+#infoIcons{
+  padding-left: 20px;
 }
 
-.content {
-  font-style: italic;
-}
-
-#nospacing {
-  line-height: 5px;
+#legendaButton{
+  color: black;
+  border-bottom: 2px solid #e7e7e7;
+  height: 50px;
+  width: 120px;
+  margin-left: 35px;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 650px) {
-  .column1, .column2 {
+  .column {
     width: 100%;
+  }
+  #legendaButton{
+    margin: auto;
+  }
+  #schoolInput{
+    margin: auto;
+    float: none;
+    display: block;
+  }
+  #filterBar{
+    padding: 0;
+  }
+  #subHeader{
+    margin-left:5px;
   }
 }
 

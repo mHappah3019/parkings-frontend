@@ -28,7 +28,7 @@ class App extends Component {
 
   refreshList = () => {
     axios
-      .get("/api/get-data")
+      .get('http://127.0.0.1:8000/api/get-data/') /* TODO: fix */
       .then((res) => this.setState({parkings: res.data}))
       .catch((err) => console.log(err));
   };
