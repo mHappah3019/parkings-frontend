@@ -39,7 +39,7 @@ class Legenda extends React.Component{
               <LocationOnSharpIcon/><ListItemText primary=": Where to park@" />
               </ListItem>
               <ListItem>
-              <SchoolTwoToneIcon/><ListItemText primary=":  Self-explanatory" />
+              <SchoolTwoToneIcon/><ListItemText primary=":  School/Campus" />
               </ListItem>
               <ListItem>
               <EmojiPeopleSharpIcon/><ListItemText primary=": Who's looking out for your bike" />

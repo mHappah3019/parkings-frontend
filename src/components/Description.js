@@ -2,7 +2,7 @@ import React from 'react';
 
 class Description extends React.Component {
     render() {
-      const whyItWorks = "Le attività convenzionate sono locali o botteghe che mettono a disposizione le loro risorse umane per rendere i parcheggi di biciclette piu' sicuri. Al suono dell'allarme i responsabili interverranno chiamando le autorità";
+      const whyItWorks = "Affiliated shops are either coffee bars or stores that will guarantee surveillance over the bike parkings nearby. When a alarmed bike-lock goes off, they will make sure your bike is safe. The shop staff can then keep working without much struggle, keeping their ears open will be enough.";
       return (
         <div className="content leftPadding">
           <h2 className="headers">

@@ -5,9 +5,9 @@ class UserGuide extends React.Component {
       super(props);
     }
     render() {
-      const howItWorks1 = "Avverti che stai parcheggiando la tua bicicletta.";
-      const howItWorks2 = "Parcheggi e allucchetti la tua bicicletta.";
-      const howItWorks3 = "Il miglior modo per rendere efficace il sistema è munendosi di un buon lucchetto con allarme. Le attività possono quindi continuare a lavorare al solito ritmo senza dover attivamente sorvegliare nessuna bicicletta.";
+      const howItWorks1 = "Inform the staff that you're parking your bike.";
+      const howItWorks2 = "Park and lock your bike.";
+      const howItWorks3 = "WARNING: An alarmed bike-lock is highly suggested as it's now the safest measure.";
       return (
         <div className="content steps leftPadding">
           <h3 className="headers">
