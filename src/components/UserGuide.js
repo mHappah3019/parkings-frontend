@@ -9,7 +9,7 @@ class UserGuide extends React.Component {
       const howItWorks2 = "Park and lock your bike.";
       const howItWorks3 = "WARNING: An alarmed bike-lock is highly suggested as it's now the safest measure.";
       return (
-        <div className="content steps leftPadding">
+        <div className="textContent steps leftPadding">
           <h3 className="headers">
             How
           </h3>

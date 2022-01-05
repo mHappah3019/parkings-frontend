@@ -6,10 +6,10 @@ class OutroParag extends React.Component {
       return (
           <div className="row">
             <div className="column left">
-              <div className="content">
-                <h2 className="headers">Contacts</h2>
-                <p>Leave any feedback or show interest in the project!<br></br> For having a talk too!</p>
-                <p>email: spaziperpedalare@gmail.com</p>
+              <div className="textContent">
+                <h2 className="headers">Contact Us</h2>
+                <p>Leave any feedback or show interest in the project!<br></br> For having a talk too!!</p>
+                <p>email inquires: spaziperpedalare@gmail.com</p>
               </div>
             </div>
           </div>

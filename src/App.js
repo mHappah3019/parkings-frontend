@@ -28,7 +28,7 @@ class App extends Component {
 
   refreshList = () => {
     axios
-      .get('/api/get-data/') /* TODO: fix */
+      .get('http://127.0.0.1:8000/api/get-data/') /* TODO: fix */
       .then((res) => this.setState({parkings: res.data}))
       .catch((err) => console.log(err));
   };
@@ -41,14 +41,17 @@ class App extends Component {
     }
 
     return(
-      <div>
-        <TopHeaders/>
-        <Description/>
-        <UserGuide/>
-        <FilterableParkingsList
-          {...mainProps}/>
-        <OutroParag/>
+      <div id="app">
+        <div className="content">
+          <TopHeaders/>
+          <Description/>
+          <UserGuide/>
+          <FilterableParkingsList
+            {...mainProps}/>
+        </div>
+        <div className="footer"><OutroParag/></div>
       </div>
+      
     );
   }
 }
