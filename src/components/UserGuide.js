@@ -9,7 +9,7 @@ class UserGuide extends React.Component {
       const howItWorks2 = "Parcheggi e allucchetti la tua bicicletta.";
       const howItWorks3 = "Il miglior modo per rendere efficace il sistema è munendosi di un buon lucchetto con allarme. Le attività possono quindi continuare a lavorare al solito ritmo senza dover attivamente sorvegliare nessuna bicicletta.";
       return (
-        <div className="content steps leftPadding">
+        <div className="textContent steps leftPadding">
           <h3 className="headers">
             How
           </h3>

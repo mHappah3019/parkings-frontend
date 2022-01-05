@@ -41,14 +41,17 @@ class App extends Component {
     }
 
     return(
-      <div>
-        <TopHeaders/>
-        <Description/>
-        <UserGuide/>
-        <FilterableParkingsList
-          {...mainProps}/>
-        <OutroParag/>
+      <div id="app">
+        <div className="content">
+          <TopHeaders/>
+          <Description/>
+          <UserGuide/>
+          <FilterableParkingsList
+            {...mainProps}/>
+        </div>
+        <div className="footer"><OutroParag/></div>
       </div>
+      
     );
   }
 }
