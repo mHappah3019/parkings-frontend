@@ -28,7 +28,7 @@ class App extends Component {
 
   refreshList = () => {
     axios
-      .get('https://parkings-api-mo94f.ondigitalocean.app/api/get-data/') /* TODO: fix */
+      .get('/api/get-data/') /* TODO: fix */
       .then((res) => this.setState({parkings: res.data}))
       .catch((err) => console.log(err));
   };
