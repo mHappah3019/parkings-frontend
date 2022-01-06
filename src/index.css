@@ -31,13 +31,6 @@ body {
   display: flex;
 }
 
-#main {
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-}
-
 #app {
   width: 100%;
   height: 100%;
@@ -51,7 +44,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background: green;
+  /* background: green; */
 }
 
 .content {
@@ -61,8 +54,6 @@ body {
 .footer {
   flex-shrink: 0;
 }
-
-
 
 .mildSpacing {
   line-height: 120%;
@@ -103,23 +94,19 @@ body {
   margin: 1px;
   line-height: 120%;
   font-family: "Segoe UI";
-  background: darkkhaki;
-}
-
-.italic {
-  font-style: italic;
+  /* background: darkkhaki; */
 }
 
 #titleHeader{
   font-family: verdana;
 }
 
-#headerPop {
+/* #headerPop {
   color:midnightblue;
-}
+} */
 
 .textContent {
-  background: darkgray;
+  /* background: darkgray; */
   font-family: Roboto, sans-serif;
 }
 
@@ -127,9 +114,9 @@ body {
   width: 50%;
 }
 
-.row{
+/* .row{
   background: black;
-}
+} */
 
 .row:after {
   content: "";
@@ -141,25 +128,19 @@ body {
   float:left;
 }
 
-.left {
+/* .left {
   background: darkcyan;
-}
+} */
 
-.right {
+/* .right {
   background: darkgoldenrod;
-}
-
-.rowC{
-  display: flex;
-  flex-direction:row;
-  background: greenyellow;
-}
+} */
 
 
 #filterBar {
   margin-top: 25px;
   padding-left: 25px;
-  background: darkred;
+  /* background: darkred; */
 }
 
 #schoolInput {
@@ -183,6 +164,12 @@ body {
   margin-left: 35px;
 }
 
+hr.solid {
+  border-top: 1px solid grey;
+  width: 75%;
+  text-align: center;
+}
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 650px) {
   .column {
@@ -204,6 +191,24 @@ body {
   }
   #listResponsive{
     margin:auto;
+  }
+}
+
+.gradient-background {
+  background: linear-gradient(31deg,#ed58fa,#2d2595,#644773,#ceae63,#81ac67,#6e95a1);
+  background-size: 360% 360%;
+  animation: gradient-animation 42s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 

@@ -46,8 +46,10 @@ class App extends Component {
           <TopHeaders/>
           <Description/>
           <UserGuide/>
+          <hr className='solid'/>
           <FilterableParkingsList
             {...mainProps}/>
+          <hr className='solid' style={{marginTop:'20px'}}/>
         </div>
         <div className="footer"><OutroParag/></div>
       </div>
