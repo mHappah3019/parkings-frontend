@@ -33,7 +33,7 @@ class FilterableParkingsList extends React.Component {
   
     render () {
       return (
-      <div>
+      <div className='gradient-background'>
         <FilterBar 
           schoolFilter={this.state.schoolFilter}
           securityLevel={this.state.securityLevel}

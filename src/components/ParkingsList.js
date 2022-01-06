@@ -59,7 +59,7 @@ class ParkingsList extends React.Component {
       });
   
       return (
-        <div style={{background:'yellow', padding:"10px"}}>
+        <div /* style={{background:"yellow", padding:"25px"}} */>
           <List>
             {elements}
             {unInterestingElements}

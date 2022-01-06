@@ -12,11 +12,11 @@ class ParkingDiv extends React.Component {
       const parking = this.props.parking;
       const surveillance_color = this.props.surveillance_color;
       return (
-        <div style={{background:'white', margin:'5px'}}> {/* TODO: remove */}
-        <ListItem>
-          <List style={{background:'lightgreen'}}>
-            <ListItem disablePadding className='mildSpacing updown' style={{background:'red'}}>
-              <LocationOnSharpIcon style={{background:'yellow'}}/>
+        <div /* style={{background:'white', margin:'5px'}} */> {/* TODO: remove */}
+        <ListItem /* style={{background:"pink"}} */>
+          <List id="listResponsive" /* style={{background:'lightgreen'}} */>
+            <ListItem disablePadding className='mildSpacing updown' /* style={{background:'red'}} */>
+              <LocationOnSharpIcon /* style={{background:'yellow'}} *//>
               <p className='mildSpacing sides'>{parking.address}</p>
             </ListItem>
             <ListItem className='mildSpacing updown' disablePadding>
