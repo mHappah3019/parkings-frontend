@@ -8,7 +8,7 @@ class Description extends React.Component {
           <h2 className="headers">
             What for
           </h2>
-          <p>
+          <p className='mildSpacing'>
             {whyItWorks}
           </p>
         </div>

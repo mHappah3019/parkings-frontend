@@ -13,7 +13,7 @@ class UserGuide extends React.Component {
           <h3 className="headers">
             How
           </h3>
-          <p>
+          <p className='mildSpacing'>
       
             {howItWorks1}<br></br>
             {howItWorks2}<br></br>

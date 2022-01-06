@@ -28,7 +28,7 @@ class App extends Component {
 
   refreshList = () => {
     axios
-      .get('/api/get-data') /* TODO: fix */
+      .get('https://parkings-api-mo94f.ondigitalocean.app/api/get-data/') /* TODO: fix */
       .then((res) => this.setState({parkings: res.data}))
       .catch((err) => console.log(err));
   };
@@ -44,12 +44,13 @@ class App extends Component {
       <div id="app">
         <div className="content">
           <TopHeaders/>
+          <hr style={{textAling:'center', width:'75%', marginTop:'0'}}/>
           <Description/>
           <UserGuide/>
           <hr className='solid'/>
           <FilterableParkingsList
             {...mainProps}/>
-          <hr className='solid' style={{marginTop:'20px'}}/>
+          <hr className='solid'/>
         </div>
         <div className="footer"><OutroParag/></div>
       </div>
