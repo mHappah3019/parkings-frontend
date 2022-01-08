@@ -87,7 +87,6 @@ body {
 
 .leftPadding {
   padding-left:10px;
-  margin:2px;
 }
 
 .headers {
@@ -198,10 +197,6 @@ hr.solid {
   }
   .textContent {
     width: 100%;
-  }
-  #topHeader {
-    width: 100%;
-    margin: 0;
   }
   #titleHeading{
     font-family: verdana;
