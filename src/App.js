@@ -44,7 +44,7 @@ class App extends Component {
       <div id="app">
         <div className="content">
           <TopHeaders/>
-          <hr style={{textAling:'center', width:'75%', marginTop:'0'}}/>
+          <hr className='solid' style={{marginTop:'0', marginBottom:'0'}}/>
           <Description/>
           <UserGuide/>
           <hr className='solid'/>
