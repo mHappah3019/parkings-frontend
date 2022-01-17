@@ -26,7 +26,7 @@ class Legenda extends React.Component{
   
     render() {
       return(
-        <div className="mildSpacing">
+        <div className="mildSpacing updown">
   
           <ListItemButton id='legendaButton' onClick={this.handleClick}>
             <ListItemText primary="Legenda" />
