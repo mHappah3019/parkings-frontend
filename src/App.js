@@ -44,7 +44,6 @@ class App extends Component {
       <div id="app">
         <div className="content">
           <TopHeaders/>
-          <hr className='solid' style={{marginTop:'0'}}/>
           <Description/>
           <UserGuide/>
           <hr className='solid'/>
