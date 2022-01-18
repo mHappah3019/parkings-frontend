@@ -160,8 +160,11 @@ body {
   margin-left: 35px;
 }
 
-#topHeader {
+#topHeader{
   width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: whitesmoke;
 }
 
 hr.solid {
